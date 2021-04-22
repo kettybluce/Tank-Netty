@@ -13,7 +13,6 @@ import java.awt.event.WindowEvent;
 public class Main {
     /**
      * 游戏启动页面
-     * 测试
      *
      * @param args
      */
