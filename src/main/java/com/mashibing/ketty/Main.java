@@ -23,6 +23,7 @@ public class Main {
 
 //          画笔不停的调用,刷新画面
             tankFrame.repaint();
+
         }
 
 

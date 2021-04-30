@@ -2,6 +2,8 @@ package com.mashibing.ketty;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -10,14 +12,19 @@ import java.awt.event.*;
  */
 public class TankFrame extends Frame {
 
-    int x = 200, y = 200;
 
-    Dir dir = Dir.DOWN;
-    private static final int SPEED = 10;
+    Tank myTank=new Tank(200,200,Dir.DOWN,this);
+
+    List<Bullet> bullets = new ArrayList<>();
+
+//    Bullet b=new Bullet(300,300,Dir.DOWN);
+
+    static final int GAME_WEITH=800,GAME_HEIGHT=600;
+
 
     public TankFrame() {
         //      设置窗口的大小
-        setSize(800, 600);
+        setSize(GAME_WEITH, GAME_HEIGHT);
 //      设置是否可以改变大小
         setResizable(false);
 //      设置窗口的标题
@@ -39,32 +46,39 @@ public class TankFrame extends Frame {
     }
 
     /**
+     * 游戏中的双缓冲效果代码
+     * 使用内存作为缓冲去实现画图,然后一次性进行显示器的渲染操作
+     * 一般的游戏项目,这样的操作都在框架自身渲染操作
+     */
+    Image offScreenImage = null;
+
+    @Override
+    public void update(Graphics g) {
+        if (offScreenImage == null) {
+            offScreenImage=this.createImage(GAME_WEITH, GAME_HEIGHT);
+        }
+        Graphics graphics = offScreenImage.getGraphics();
+        Color c = graphics.getColor();
+        graphics.setColor(Color.BLACK);
+        graphics.fillRect(0, 0, GAME_WEITH, GAME_HEIGHT);
+        graphics.setColor(c);
+        paint(graphics);
+        g.drawImage(offScreenImage, 0, 0, null);
+    }
+
+    /**
      * 创建awt图形界面后系统自动调用paint方法
      *
      * @param graphics
      */
     @Override
     public void paint(Graphics graphics) {
-//        绘制一个坐标x,y,宽50和高50的矩形
-        graphics.fillRect(x, y, 50, 50);
 
-        switch (dir) {
-            case LEFT:
-                x -= SPEED;
-                break;
-            case UP:
-                y -= SPEED;
-                break;
-            case REIGHT:
-                x += SPEED;
-                break;
-            case DOWN:
-                y += SPEED;
-                break;
+        myTank.paint(graphics);
 
+        for (int i = 0; i <bullets.size() ; i++) {
+            bullets.get(i).paint(graphics);
         }
-//        x+=10;
-//        y+=10;
     }
 
 
@@ -133,6 +147,8 @@ public class TankFrame extends Frame {
                 case KeyEvent.VK_DOWN:
                     bD = false;
                     break;
+                case KeyEvent.VK_CONTROL:
+                    myTank.fire();
             }
             serMainTankDir();
         }
@@ -142,10 +158,14 @@ public class TankFrame extends Frame {
          * 设置根据操作，修改坦克的方向
          */
         private void serMainTankDir() {
-            if (bL) dir = Dir.LEFT;
-            if (bU) dir = Dir.UP;
-            if (bR) dir = Dir.REIGHT;
-            if (bD) dir = Dir.DOWN;
+            if (!bL && !bU && !bR && !bD) myTank.setMoving(false);
+            else {
+                myTank.setMoving(true);
+                if (bL) myTank.setDir(Dir.LEFT);
+                if (bU) myTank.setDir(Dir.UP);
+                if (bR) myTank.setDir(Dir.REIGHT);
+                if (bD) myTank.setDir(Dir.DOWN);
+            }
         }
 
     }
