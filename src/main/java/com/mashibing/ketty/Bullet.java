@@ -47,7 +47,7 @@ public class Bullet {
         move();
 
     }
-
+//  键盘移动对应实现坦克的移动
     private void move() {
 
         switch (dir) {
@@ -65,6 +65,7 @@ public class Bullet {
                 break;
 
         }
+//  移动的坐标超出边框的设计,表示状态死亡
         if (x < 0 || y < 0 || x > TankFrame.GAME_WEITH || y > TankFrame.GAME_HEIGHT) live = false;
     }
 }

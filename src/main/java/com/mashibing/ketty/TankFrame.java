@@ -73,9 +73,14 @@ public class TankFrame extends Frame {
      */
     @Override
     public void paint(Graphics graphics) {
+//      显示窗口中存在的子弹数目
+        Color c = graphics.getColor();
+        graphics.setColor(Color.WHITE);
+        graphics.drawString("子弹的数量是"+bullets.size(),10,60);
+        graphics.setColor(c);
 
         myTank.paint(graphics);
-
+//      画子弹的图像信息
         for (int i = 0; i <bullets.size() ; i++) {
             bullets.get(i).paint(graphics);
         }
