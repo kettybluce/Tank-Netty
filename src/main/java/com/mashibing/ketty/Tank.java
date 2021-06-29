@@ -71,10 +71,12 @@ public class Tank {
     public void paint(Graphics graphics){
     //绘制背景色的方法
         Color c = graphics.getColor();
-        graphics.setColor(Color.YELLOW);
-        // 绘制一个坐标x,y,宽50和高50的矩形
-        graphics.fillRect(x,y, WEIGTH, HEIGHT);
-        graphics.setColor(c);
+//        graphics.setColor(Color.YELLOW);
+//        // 绘制一个坐标x,y,宽50和高50的矩形
+//        graphics.fillRect(x,y, WEIGTH, HEIGHT);
+//        graphics.setColor(c);
+
+        graphics.drawImage(resourceMgr.tankL,x,y,null);
     //移动方法,根据监听事件,操作对应的坦克对象
         move();
     }
