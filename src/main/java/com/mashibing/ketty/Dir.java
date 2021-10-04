@@ -6,6 +6,6 @@ package com.mashibing.ketty;
  * 键盘方向操作的枚举类
  */
 public enum Dir {
-    LEFT, UP, REIGHT, DOWN,
+    LEFT, UP, RIGHT, DOWN,
 }
 

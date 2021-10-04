@@ -16,6 +16,11 @@ public class Main {
 //       new Frame() 一个窗口
         TankFrame tankFrame = new TankFrame();
 
+//      初始化敌方坦克
+        for (int i = 0; i < 5; i++) {
+            tankFrame.tanks.add(new Tank(50+i*80,200,Dir.DOWN,Group.BAD,tankFrame));
+        }
+
         while(true){
 
 //          主线程沉睡,相当于50毫秒
@@ -25,7 +30,5 @@ public class Main {
             tankFrame.repaint();
 
         }
-
-
     }
 }

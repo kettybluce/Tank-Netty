@@ -21,8 +21,11 @@ public class ImageTest {
     @Test
     public void test01(){
         try {
-            BufferedImage read1 = ImageIO.read(new File("E:\\Tank-Netty\\src\\main\\resources\\images\\tankLD.gif"));
+
+
+            BufferedImage read1 = ImageIO.read(new File("D:\\IdeaProjects\\Tank-Netty\\src\\main\\resources\\images\\tankLD.gif"));
             assertNotNull(read1);
+
             InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("images/tankLU.gif");
             BufferedImage read2 = ImageIO.read(resourceAsStream);
 //          this.getClass()

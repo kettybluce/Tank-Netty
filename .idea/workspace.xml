@@ -1,116 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a71eb20-97c4-4386-b88f-2c375803deff" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/resourceMgr.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/BadTank1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/BadTank2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/GoodTank1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/GoodTank2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/bulletD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/bulletL.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/bulletR.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/bulletU.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/bulletU.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e11.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e12.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e13.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e14.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e15.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/e9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/missileLD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/missileLU.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/missileRD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/missileRU.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/square0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/square1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/square2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/square3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/square4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/square5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/square6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tank.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankL.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankLD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankLU.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankR.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankRD.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankRU.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/tankU.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/ImageTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Tank-Netty.iml" afterPath="$PROJECT_DIR$/Tank-Netty.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Tank.java" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Tank.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Bullet.class" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Bullet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Dir.class" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Dir.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank$1.class" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank.class" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame$MyKeyListener.class" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame$MyKeyListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame.class" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame.class" />
+    <list default="true" id="0a71eb20-97c4-4386-b88f-2c375803deff" name="Default" comment="+)1.注释版本">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Explode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Dir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Dir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/TankFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/TankFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/resourceMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mashibing/ketty/ResourceMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/ImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ImageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Bullet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Bullet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Dir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Dir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame$MyKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame$MyKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/TankFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/resourceMgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mashibing/ketty/resourceMgr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/ImageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/ImageTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tank.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/ketty/Tank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="83" column="7" lean-forward="true" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-              <folding>
-                <element signature="e#1304#1346#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -145,15 +75,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\deveTools\repository" />
-        <option name="mavenHome" value="D:/deveTools/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="D:\deveTools\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="localRepository" value="D:\develop_tools\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../develop_tools/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\develop_tools\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -182,6 +107,7 @@
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="1yu5Sirjd1BfcUWlp6UgTlhK2qp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -281,15 +207,20 @@
       <pane id="Scratches" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/马士兵资料面试/坦克大战资料/tank-master/tank" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -302,19 +233,7 @@
       <recent name="E:\Tank-Netty\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.ImageTest.test01">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -323,137 +242,79 @@
       <module />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.ketty.Main" />
+      <module name="Tank-Netty" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mashibing.ketty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.ketty.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Tank-Netty" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ImageTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <module name="Tank-Netty" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="Tank-Netty" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.ImageTest" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ImageTest.test01" />
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ImageTest.test01" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ImageTest.test01" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ImageTest.test01" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -476,6 +337,10 @@
       <workItem from="1622168561409" duration="667000" />
       <workItem from="1624584594579" duration="740000" />
       <workItem from="1624585361089" duration="6964000" />
+      <workItem from="1633088639288" duration="312000" />
+      <workItem from="1633088961062" duration="1007000" />
+      <workItem from="1633179970254" duration="2931000" />
+      <workItem from="1633230700471" duration="9792000" />
     </task>
     <task id="LOCAL-00001" summary="+)1.注释版本">
       <created>1619749334041</created>
@@ -585,20 +450,23 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+)1.注释版本" />
     <option name="LAST_COMMIT_MESSAGE" value="+)1.注释版本" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mashibing/ketty/TankFrame.java">
@@ -905,7 +773,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://D:/deveTools/Java/jdk1.8.0_271/src.zip!/javax/imageio/ImageIO.java">
+    <entry file="jar://$PROJECT_DIR$/../../deveTools/Java/jdk1.8.0_271/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="1347" column="0" lean-forward="false" selection-start-line="1347" selection-start-column="0" selection-end-line="1347" selection-end-column="0" />
@@ -913,7 +781,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/deveTools/repository/junit/junit/4.13.1/junit-4.13.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="jar://$PROJECT_DIR$/../../deveTools/repository/junit/junit/4.13.1/junit-4.13.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
