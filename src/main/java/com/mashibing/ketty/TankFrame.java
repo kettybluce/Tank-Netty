@@ -25,7 +25,7 @@ public class TankFrame extends Frame {
 
 //    Bullet b=new Bullet(300,300,Dir.DOWN);
 
-    static final int GAME_WIDTH=800,GAME_HEIGHT=600;
+    static final int GAME_WIDTH=1080,GAME_HEIGHT=860;
 
 
     public TankFrame() {

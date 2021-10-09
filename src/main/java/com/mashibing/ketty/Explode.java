@@ -1,7 +1,5 @@
 package com.mashibing.ketty;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-
 import java.awt.*;
 
 /**
@@ -28,6 +26,8 @@ public class Explode {
         this.x = x;
         this.y = y;
         this.tf = tf;
+
+//        new Audio("audio/explode.wav").run();
     }
 
     //画爆炸的图片

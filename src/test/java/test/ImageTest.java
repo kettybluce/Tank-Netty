@@ -1,5 +1,6 @@
 package test;
 
+import com.mashibing.ketty.Audio;
 import org.junit.Test;
 
 import javax.imageio.ImageIO;
@@ -34,5 +35,12 @@ public class ImageTest {
             e.printStackTrace();
         }
 
+    }
+
+
+    @Test
+    public void test2(){
+
+        new Audio("audio/explode.wav").run();
     }
 }

@@ -26,8 +26,8 @@ public class Tank {
 //坦克游戏界面的宽高
 //    private static int WEIGHT=50,HEIGHT=50;
 
-    public static int WIDTH=ResourceMgr.tankD.getWidth();
-    public static int HEIGHT=ResourceMgr.tankD.getHeight();
+    public static int WIDTH=ResourceMgr.tankU.getWidth();
+    public static int HEIGHT=ResourceMgr.tankU.getHeight();
 
     private Random random=new Random();
 
